@@ -1,0 +1,120 @@
+*{
+    font-family: 'open-sans', sans-serif;
+    color: #ffffff;
+    scroll-behavior: smooth;
+}
+
+.btn-outline-light:hover{
+    background-color: rgba(0,0,0,0);
+}
+
+.bg-pd{
+    top: 0px;
+    padding: 20px;
+    background-color: #4a148c;
+}
+
+.container {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.carousel-item {
+    background: no-repeat center center scroll;
+    -webtkit-background-size: cover;
+    background-size: cover;
+}
+
+.nav-link,
+.nav-link:hover{
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.nav-link-black,
+.nav-link-black:hover{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+
+#page_1 {
+    height: 100%;
+    padding-top: 100px;
+    min-height: 300px;
+    background-color: #6a1b9a;
+    float: center;
+    -webtkit-background-size: cover;
+    background-size: cover;
+}
+.card {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0,0,0,0);
+    margin-top: 20px;
+}
+
+#page_2{
+    height: 100%;
+    padding-top: 100px;
+    min-height: 300px;
+    background-color: #4a148c;
+    float: center;
+    -webtkit-background-size: cover;
+    background-size: cover;
+}
+
+#page_3 {
+    height: 100%;
+    padding-top: 100px;
+    min-height: 300px;
+    background-color: #38006b;
+    float: center;
+    -webtkit-background-size: cover;
+    background-size: cover;
+}
+
+#page_4 {
+    height: 100%;
+    padding-top: 100px;
+    min-height: 300px;
+    background-color: #6a1b9a;
+    float: center;
+    -webtkit-background-size: cover;
+    background-size: cover;
+}
+
+.custom-navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    transition: background-color 200ms linear;
+  }
+
+.navbar-toggler{
+    border-color: #fff;
+    color: #fff;
+}
+
+@media(max-width: 767px){
+    .navbar-collapse{
+        padding: 20px;
+        background-color: rgba(0,0,0,0.5);
+        margin-top: 20px;
+        border-radius: 5%;
+    }
+}
+
+@media(min-width: 768px){
+    .centeredv{
+        position: relative;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    #page_1, #page_2, #page_3, #page_4 {
+        height: 100vh;
+    }
+}
